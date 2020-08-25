@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/mapa">
+        <file>World map.gif</file>
+    </qresource>
+    <qresource prefix="/Kraje">
+        <file>niemcy.txt</file>
+        <file>polska.txt</file>
+        <file>francja</file>
+        <file>polska</file>
+        <file>niemcy</file>
+    </qresource>
+</RCC>
