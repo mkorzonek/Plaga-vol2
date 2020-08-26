@@ -3,7 +3,7 @@
 #include "swiat.h"
 #include "widget.h"
 
-Symulator::Symulator()
+Symulator::Symulator(Kraj [] *kraje)
 {
 
 }
@@ -38,7 +38,7 @@ void Symulator::Fnext_day()
 {
     for (int i=0;i<ziemia.liczba_krajow;i++)
     {
-        k[i].Fnext_day();
+        kraje[i].Fnext_day();
     }
     ziemia.Fnext_day();
     Foblicz();

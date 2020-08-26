@@ -15,10 +15,21 @@ Widget::Widget(QWidget *parent)
     timer = new QTimer(this);
     connect(timer, SIGNAL(timeout()),this,SLOT(next_day()));
     ui->stackedWidget->setCurrentIndex(1);
+
+    czytaczPlikow = new Czytacz()
+
+    Kraj [] kraje = czytaczPlikow->wczytaj()
+
+    symulacja = new Symulacja(kraje)
 }
 
 void Widget::on_pb_start_clicked()
 {
+
+    Kraj [] kraje = czytaczPlikow->wczytaj()
+
+    symulacja = new Symulacja(kraje)
+
     symulacja.Fstart();
     //Fwczytaj();
     Finfoswiat();

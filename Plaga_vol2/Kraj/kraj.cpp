@@ -9,6 +9,8 @@
 
 using namespace std;
 
+
+
 Kraj::Kraj(string n, int p, int pow,int temp,int o,float u,float w,float m)
 {
 
@@ -43,6 +45,12 @@ void Kraj::Fwczytaj(string n)
     string linia;
     while(getline(plik,linia))
     {
+        nazwa
+        medycyna
+        saad
+        asd
+        saad
+        asd
         if(aktualny_nr==nr_linii) nazwa=linia;
         if(aktualny_nr==nr_linii+1) tablica.populacja[1]=atoi(linia.c_str()); //atoi(linia.c_str()) przekształca string na int
         if(aktualny_nr==nr_linii+2) powierzchnia=atoi(linia.c_str());
@@ -52,6 +60,7 @@ void Kraj::Fwczytaj(string n)
         if(aktualny_nr==nr_linii+6) medycyna=atof(linia.c_str());
 
         aktualny_nr++;
+        kraje[i] = new Kraj(nazwa, medycyna, sasd, ,asdasd ,asdd)
     }
 
     plik.close();

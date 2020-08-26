@@ -24,8 +24,6 @@ public:
 
     Patogen wirus;
     Swiat ziemia;
-    Kraj *k=new Kraj[ziemia.liczba_krajow];
-
 
 };
 
